@@ -1,0 +1,52 @@
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+.main-head{
+  text-align: center;
+  background: rgba(116, 114, 114,0.4);
+  padding: 10px;
+}
+#first{
+  text-align: center;
+}
+.input{
+  display: flex;
+  justify-content: center;
+}
+#userinput{
+  border-style: outset;
+  border-width: 2px;
+}
+.list{
+  display: grid;
+  justify-content: center;
+}
+li{
+  cursor: pointer;
+  margin: 5px;
+  list-style: ;
+}
+.done {
+  text-decoration: line-through;
+}
+.del-btn{
+  border-style: outset;
+  border-width: 1px;
+  margin: 0px 10px;
+}
